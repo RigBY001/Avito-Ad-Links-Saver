@@ -1,0 +1,45 @@
+/* Стили для popup */
+.popup {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+.popup h1 {
+  font-size: 18px;
+  color: #333; /* Более темный цвет для заголовка */
+}
+
+.popup ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.popup li {
+  margin: 5px 0;
+}
+
+.popup button {
+  width: 100%; /* Занимает всю ширину родительского контейнера */
+  min-width: 120px; /* Минимальная ширина кнопки */
+  min-height: 40px; /* Минимальная высота кнопки */
+  margin-top: 10px;
+  padding: 10px 15px; /* Увеличиваем внутренние отступы для кнопок */
+  font-size: 16px; /* Увеличиваем размер шрифта */
+  color: white; /* Цвет текста */
+  background-color: #28a745; /* Зеленый фон */
+  border: none; /* Убираем рамку */
+  border-radius: 5px; /* Скругляем углы */
+  cursor: pointer; /* Курсор при наведении */
+  transition: background-color 0.3s, transform 0.2s; /* Плавные переходы */
+}
+
+/* Эффект при наведении */
+.popup button:hover {
+  background-color: #218838; /* Темнее зеленый при наведении */
+  transform: translateY(-2px); /* Поднимаем кнопку немного вверх */
+}
+
+/* Эффект при нажатии */
+.popup button:active {
+  transform: translateY(0); /* Возвращаем кнопку на место при нажатии */
+}
